@@ -5,9 +5,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { MailIcon, PhoneCallIcon, SendIcon } from "lucide-react";
 import React from "react";
 import { BsMessenger } from "react-icons/bs";
-
 const Contact = () => {
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   };
   return (
@@ -16,7 +15,7 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row justify-between w-full gap-10">
         <div className="flex flex-col gap-10 w-full lg:px-20 ">
           <h4 className="text-lg leading-2 text-center font-light uppercase tracking-[5px]">
-            Let's Connect
+            Lets Connect
           </h4>
           <div className="flex flex-col gap-2 items-center border border-gray-800 shadow-2xl py-6 px-4 rounded-2xl ">
             <MailIcon />

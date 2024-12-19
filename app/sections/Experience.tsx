@@ -1,14 +1,11 @@
 "use client";
-import Image from "next/image";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
 import { experienceData } from "../constant/data";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { SchoolIcon, StarIcon, WorkflowIcon } from "lucide-react";
+import {WorkflowIcon } from "lucide-react";
 const Experience = () => {
   return (
     <div className="w-full py-32  px-2 flex flex-col items-center justify-center overflow-hidden">

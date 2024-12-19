@@ -1,4 +1,4 @@
-import Header from "@/app/sections/Header";
+
 import React from "react";
 import Hero from "./sections/Hero";
 import Experience from "./sections/Experience";

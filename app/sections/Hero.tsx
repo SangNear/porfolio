@@ -4,9 +4,9 @@ import React from "react";
 import memojiImage from "../../public/assets/images/memoji-computer.png";
 import { Download, FacebookIcon, Instagram, Linkedin, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
+import { useTypewriter } from "react-simple-typewriter";
 const Hero = () => {
-  const [text, count] = useTypewriter({
+  const [text] = useTypewriter({
     words: ["Hi, My name is Sang", "Nice to meet you"],
     loop: true,
     delaySpeed: 2000,
