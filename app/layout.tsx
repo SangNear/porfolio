@@ -1,6 +1,17 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Inter, Calistoga } from "next/font/google";
+import Header from "./sections/Header";
+import Sidebar from "./components/Sidebar";
+import Footter from "./components/Footter";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const calistoga = Calistoga({
+  subsets: ["latin"],
+  variable: "--font-serif",
+  weight: ["400"],
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,9 +37,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${calistoga.variable} antialiased bg-gray-900 text-white font-sans relative`}
       >
+        <div className="fixed bottom-0 lg:right-10 lg:top-1/2 lg:transform lg:-translate-y-1/2 max-lg:w-full">
+          <Sidebar />
+        </div>
         {children}
+        <Footter/>
       </body>
     </html>
   );
