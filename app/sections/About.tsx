@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <div className="px-4 md:px-20 overflow-hidden  ">
+    <div className="px-4 md:px-20  ">
       <h2 className="my-20 text-center text-4xl leading-7">About Me</h2>
       <div className="flex flex-col md:flex-row ">
         <div className="flex flex-col  gap-4 flex-1 ">
@@ -30,7 +30,7 @@ const About = () => {
             {techStack.map((tech, index) => (
               <motion.div
                 initial={{
-                  x: 200,
+                  y: 200,
                   opacity: 0,
                   scale: 0.5,
                 }}
@@ -38,7 +38,7 @@ const About = () => {
                   duration: 1,
                 }}
                 whileInView={{
-                  x: 0,
+                  y: 0,
                   opacity: 1,
                   scale: 1,
                 }}

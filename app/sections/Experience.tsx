@@ -8,13 +8,13 @@ import "react-vertical-timeline-component/style.min.css";
 import {WorkflowIcon } from "lucide-react";
 const Experience = () => {
   return (
-    <div className="w-full py-32  px-2 flex flex-col items-center justify-center overflow-hidden">
+    <div className="w-full py-32  px-2 flex flex-col items-center justify-center overflow-hidden -z-10">
       <h2 className="text-center uppercase text-3xl">Experiences</h2>
-      <VerticalTimeline>
+      <VerticalTimeline className="-z-10">
         {experienceData.map((exp) => (
           <VerticalTimelineElement
             key={exp.id}
-            className="vertical-timeline-element--work -z-10"
+            className="vertical-timeline-element--work "
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date={exp.timeWork}

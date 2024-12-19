@@ -22,7 +22,7 @@ const Hero = () => {
       transition={{
         duration: 1,
       }}
-      className="py-32 animate-fade overflow-y-hidden "
+      className="py-32 lg:py-48 animate-fade overflow-y-hidden "
     >
       <div className="max-lg:hidden size-[620px] hero-ring"></div>
       <div className="max-lg:hidden size-[820px] hero-ring"></div>

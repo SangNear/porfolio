@@ -6,7 +6,7 @@ import { Mail } from "lucide-react";
 import { BookOpen } from "lucide-react";
 import { FolderRoot } from "lucide-react";
 const Sidebar = () => {
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState("section1");
   const handleScroll = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
