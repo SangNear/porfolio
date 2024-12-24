@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { House } from "lucide-react";
 import { User } from "lucide-react";
 import { Mail } from "lucide-react";
@@ -14,6 +14,37 @@ const Sidebar = () => {
       setActive(sectionId);
     }
   };
+  useEffect(() => {
+    // Function to check if section is in view
+    const handleScrollEvent = () => {
+      const sections = [
+        "section1",
+        "section2",
+        "section3",
+        "section4",
+        "section5",
+      ];
+      for (let sectionId of sections) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          const rect = section.getBoundingClientRect();
+          if (
+            rect.top <= window.innerHeight / 2 &&
+            rect.bottom >= window.innerHeight / 2
+          ) {
+            setActive(sectionId);
+          }
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScrollEvent);
+
+    // Cleanup on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScrollEvent);
+    };
+  }, []);
   return (
     <nav className="flex lg:flex-col w-full justify-evenly  gap-5 py-4  border border-white/15 lg:rounded-full bg-gray-600">
       {/* Smooth scroll links */}

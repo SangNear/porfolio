@@ -15,30 +15,32 @@ export const experienceData = [
   {
     id: 1,
     timeWork: "2023 - Present",
-    companyName: "Alta Software",
-    position: "Senior  Frontend Developer ",
+    companyName: "Cong ty TNHH quan li 3t",
+    position: "Web Developer ",
     decription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias ex facilis odio consequuntur, libero, repellendus distinctio illo, laudantium quasi accusantium perspiciatis beatae possimus reiciendis suscipit. Non exercitationem quis cumque.",
+      "- Participated in the development of the RentTracker project from the initial phase, actively contributing to the construction and shaping of the system. - Gathered requirements from clients, conducted analysis and discussions to identify essential features, ensured outcomes met expectations, and implemented optimal solutions. - Developed the user interface (UI) using ReactJS/NextJS, integrated with Material UI to design and build custom components for each module within the system. - Received APIs from the backend and loaded data into the user interface. - Used FileZilla to deploy code to the server preconfigured by the backend team. ",
     techStacks: ["Javascript", "Reactjs", "Nextjs", "MongoDb"],
     img: nhatro3t,
   },
+
   {
     id: 2,
     timeWork: "2023 - Present",
-    companyName: "Alta Software",
-    position: "Senior  Frontend Developer ",
+    companyName: "Hanbiro",
+    position: "Frontend Developer ",
     decription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias ex facilis odio consequuntur, libero, repellendus distinctio illo, laudantium quasi accusantium perspiciatis beatae possimus reiciendis suscipit. Non exercitationem quis cumque.",
+      "- Using REACTJS and MUI library to build the interface for the CRM project. - Apply RECOIL for management data states in application - Intergrate APIs from the backend team and use fetch API to communicate with the Backend and display customer data on the user interface.",
     techStacks: ["Javascript", "Reactjs", "Nextjs", "MongoDb"],
     img: nhatro3t,
   },
+
   {
     id: 3,
     timeWork: "2023 - Present",
     companyName: "Alta Software",
-    position: "Senior  Frontend Developer ",
+    position: "Intern Frontend Developer ",
     decription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias ex facilis odio consequuntur, libero, repellendus distinctio illo, laudantium quasi accusantium perspiciatis beatae possimus reiciendis suscipit. Non exercitationem quis cumque.",
+      "- Worked in an intern project - Using Reactjs Create user interfaces based on designs from Figma by HTML,CSS,JS, REACTJS - Using developer tools to identify and fix bugs during development ",
     techStacks: ["Javascript", "Reactjs", "Nextjs", "MongoDb"],
     img: nhatro3t,
   },

@@ -5,6 +5,7 @@ import memojiImage from "../../public/assets/images/memoji-computer.png";
 import { Download, FacebookIcon, Instagram, Linkedin, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTypewriter } from "react-simple-typewriter";
+
 const Hero = () => {
   const [text] = useTypewriter({
     words: ["Hi, My name is Sang", "Nice to meet you"],
@@ -85,7 +86,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-col md:flex-row md:justify-center items-center mt-8 gap-4">
-          <motion.button
+          <motion.a
             initial={{
               x: -200,
               opacity: 0,
@@ -99,11 +100,14 @@ const Hero = () => {
             transition={{
               duration: 1,
             }}
+            
+            download
             className="inline-flex items-center gap-2 border border-white/15 rounded-2xl px-6 py-4 "
           >
             <span>Download my CV </span>
             <Download className="size-4" />
-          </motion.button>
+          </motion.a>
+          
           <motion.button
             initial={{
               x: 200,
