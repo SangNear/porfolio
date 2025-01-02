@@ -101,7 +101,8 @@ const Hero = () => {
               duration: 1,
             }}
             
-            download
+            href="/resume.pdf"
+            download="resume"
             className="inline-flex items-center gap-2 border border-white/15 rounded-2xl px-6 py-4 "
           >
             <span>Download my CV </span>

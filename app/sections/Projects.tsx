@@ -21,7 +21,7 @@ const Projects = () => {
             <span>Project 1 Description</span>
           </div>
         </Link>
-        <Link href="#" className="flex flex-col gap-2 border border-gray-800 shadow-2xl p-4  ">
+        <Link href="https://realtime-chatapp-219n.onrender.com" passHref target="_blank" className="flex flex-col gap-2 border border-gray-800 shadow-2xl p-4  ">
           <Image
             src={chatapp}
             alt="image-project"
@@ -33,7 +33,7 @@ const Projects = () => {
             <span>Project 1 Description</span>
           </div>
         </Link>
-        <Link href="#" className="flex flex-col gap-2 border  border-gray-800 shadow-2xl p-4  ">
+        <Link href="#"  className="flex flex-col gap-2 border  border-gray-800 shadow-2xl p-4  ">
           <Image
             src={porfolio}
             alt="image-project"
