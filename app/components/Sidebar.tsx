@@ -24,7 +24,7 @@ const Sidebar = () => {
         "section4",
         "section5",
       ];
-      for (let sectionId of sections) {
+      for (const sectionId of sections) {
         const section = document.getElementById(sectionId);
         if (section) {
           const rect = section.getBoundingClientRect();
