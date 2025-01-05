@@ -79,7 +79,7 @@ const Contact = () => {
           >
             <BsMessenger />
             <span className="font-bold text-gray-200">Messenger</span>
-            <span className="text-gray-400">nguyenlamsang2004@gmail.com</span>
+            <span className="text-gray-400">facebook.com/nguyen.sang.56829446</span>
           </motion.div>
         </div>
         <div className="flex flex-col gap-10 w-full lg:px-20">

@@ -14,34 +14,34 @@ import mui from "../../public/assets/logoTech/mui.png";
 export const experienceData = [
   {
     id: 1,
-    timeWork: "2023 - Present",
-    companyName: "Cong ty TNHH quan li 3t",
-    position: "Web Developer ",
+    timeWork: "May, 23 - August, 24",
+    companyName: "3T",
+    position: "Frontend Developer",
     decription:
       "- Participated in the development of the RentTracker project from the initial phase, actively contributing to the construction and shaping of the system. - Gathered requirements from clients, conducted analysis and discussions to identify essential features, ensured outcomes met expectations, and implemented optimal solutions. - Developed the user interface (UI) using ReactJS/NextJS, integrated with Material UI to design and build custom components for each module within the system. - Received APIs from the backend and loaded data into the user interface. - Used FileZilla to deploy code to the server preconfigured by the backend team. ",
-    techStacks: ["Javascript", "Reactjs", "Nextjs", "MongoDb"],
+    techStacks: ["Javascript", "Reactjs", "Nextjs", "Material UI"],
     img: nhatro3t,
   },
 
   {
     id: 2,
-    timeWork: "2023 - Present",
+    timeWork: "August, 22 - November, 22",
     companyName: "Hanbiro",
     position: "Frontend Developer ",
     decription:
       "- Using REACTJS and MUI library to build the interface for the CRM project. - Apply RECOIL for management data states in application - Intergrate APIs from the backend team and use fetch API to communicate with the Backend and display customer data on the user interface.",
-    techStacks: ["Javascript", "Reactjs", "Nextjs", "MongoDb"],
+    techStacks: ["Javascript", "Reactjs","Material UI" ],
     img: nhatro3t,
   },
 
   {
     id: 3,
-    timeWork: "2023 - Present",
+    timeWork: "April, 22 - July, 22",
     companyName: "Alta Software",
     position: "Intern Frontend Developer ",
     decription:
       "- Worked in an intern project - Using Reactjs Create user interfaces based on designs from Figma by HTML,CSS,JS, REACTJS - Using developer tools to identify and fix bugs during development ",
-    techStacks: ["Javascript", "Reactjs", "Nextjs", "MongoDb"],
+    techStacks: ["Javascript", "Reactjs", "Firebase"],
     img: nhatro3t,
   },
 ];
