@@ -9,17 +9,15 @@ const About = () => {
       <h2 className="my-20 text-center text-4xl leading-7">About Me</h2>
       <div className="flex flex-col md:flex-row ">
         <div className="flex flex-col  gap-4 flex-1 ">
-          <h4 className="text-2xl leading-5 font-light uppercase tracking-[10px]">
+          <h4 className="text-2xl text-center leading-5 font-light uppercase tracking-[10px]">
             Biography
           </h4>
           <p className="mt-4 text-justify text-white/60">
-            I am a full stack web developer with a passion for creating
-            interactive and reponsive web applications. I have experience
-            working Javascript, React, Nextjs, Nodejs, Express, Mongodb,
-            Sequelize, HTML, CSS, Git and more. I am a quick learner and I
-            always looking to expand my knowledge and skill set. I am a
-            teamplayer and excited to work with others to create amazing
-            applications.
+            I am a Frontend Developer with a passion for creating interactive
+            and reponsive web applications. I have experience working
+            Javascript, React, Nextjs, Nodejs, Express, Mongodb, Sequelize,
+            HTML, CSS, Git and more. Hence, I can collaborate very well with
+            teammates meanwhile working Independently is one of my strong point
           </p>
         </div>
         <div className="flex flex-col items-center justify-center gap-4 flex-1">

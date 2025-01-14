@@ -18,7 +18,7 @@ export const experienceData = [
     companyName: "3T",
     position: "Frontend Developer",
     decription:
-      "- Participated in the development of the RentTracker project from the initial phase, actively contributing to the construction and shaping of the system. - Gathered requirements from clients, conducted analysis and discussions to identify essential features, ensured outcomes met expectations, and implemented optimal solutions. - Developed the user interface (UI) using ReactJS/NextJS, integrated with Material UI to design and build custom components for each module within the system. - Received APIs from the backend and loaded data into the user interface. - Used FileZilla to deploy code to the server preconfigured by the backend team. ",
+      "- Participated in the development of the RentTracker project from scratch, actively contributing to the construction and shaping of the system. - Gathered requirements from clients, conducted analysis and discussions to identify essential features, ensured outcomes met expectations, and implemented optimal solutions. - Developed the user interface (UI) using ReactJS/NextJS, integrated with Material UI to design and build custom components for each module within the system. - Received APIs from the backend and loaded data into the user interface. - Used FileZilla to deploy code to the server preconfigured by the backend team. ",
     techStacks: ["Javascript", "Reactjs", "Nextjs", "Material UI"],
     img: nhatro3t,
   },

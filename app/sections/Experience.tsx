@@ -15,7 +15,7 @@ const Experience = () => {
           <VerticalTimelineElement
             key={exp.id}
             className="vertical-timeline-element--work "
-            contentStyle={{ background: "rgb(3, 161, 252)", color: "#fff" }}
+            contentStyle={{ background: "rgb(3, 161, 252)", color: "#fff", fontStyle:"italic" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date={exp.timeWork}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
