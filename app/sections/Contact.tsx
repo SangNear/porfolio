@@ -1,9 +1,9 @@
 "use client";
-import { MailIcon, PhoneCallIcon, SendIcon } from "lucide-react";
+import { MailIcon, PhoneCallIcon } from "lucide-react";
 import { BsMessenger } from "react-icons/bs";
 import { motion } from "framer-motion";
 import ContactMessage from "../components/ContactMessage";
-import ConfirmMessage from "../components/ConfirmMessage";
+
 const Contact = () => {
   return (
     <div className="pb-32 px-4 md:px-20 w-full flex flex-col items-center gap-16">
