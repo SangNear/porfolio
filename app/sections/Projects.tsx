@@ -18,7 +18,7 @@ const Projects = () => {
 
           <div className="flex flex-col gap-2">
             <p>AI - Generation Images</p>
-            <span>Project 1 Description</span>
+            
           </div>
         </Link>
         <Link href="https://realtime-chatapp-219n.onrender.com" passHref target="_blank" className="flex flex-col gap-2 border border-gray-800 shadow-2xl p-4  ">
@@ -30,7 +30,7 @@ const Projects = () => {
 
           <div className="flex flex-col gap-2">
             <p>Realtime Chat app</p>
-            <span>Project 1 Description</span>
+            
           </div>
         </Link>
         <Link href="#"  className="flex flex-col gap-2 border  border-gray-800 shadow-2xl p-4  ">
@@ -42,7 +42,7 @@ const Projects = () => {
 
           <div className="flex flex-col gap-2">
             <p>My Portfolio</p>
-            <span>Project 1 Description</span>
+            
           </div>
         </Link>
       </div>
